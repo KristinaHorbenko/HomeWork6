@@ -22,13 +22,18 @@ public class Main {
         Dog dog1 = new Dog("Шарко");
         dog1.run(500);
         dog1.swim(10);
+        System.out.println();
 
+        Duck duck = new Duck("Кря");
+        duck.run(12);
+        duck.swim(5);
+
+        System.out.println();
         System.out.println("Усього котів створено: " + Cat.getCount());
         System.out.println();
         System.out.println("Усього собак створено: " + Dog.getCount());
-
-
-
+        System.out.println();
+        System.out.println("Усього тварин створено: " + Duck.getCount());
 
     }
 }
